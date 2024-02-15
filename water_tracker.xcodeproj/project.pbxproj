@@ -14,6 +14,7 @@
 		EF3649C42B7BAA6800A010F6 /* water_trackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3649C32B7BAA6800A010F6 /* water_trackerTests.swift */; };
 		EF3649CE2B7BAA6800A010F6 /* water_trackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3649CD2B7BAA6800A010F6 /* water_trackerUITests.swift */; };
 		EF3649D02B7BAA6800A010F6 /* water_trackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3649CF2B7BAA6800A010F6 /* water_trackerUITestsLaunchTests.swift */; };
+		EF364A122B7E4A0400A010F6 /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF364A112B7E4A0400A010F6 /* Progress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		EF3649C92B7BAA6800A010F6 /* water_trackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = water_trackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF3649CD2B7BAA6800A010F6 /* water_trackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = water_trackerUITests.swift; sourceTree = "<group>"; };
 		EF3649CF2B7BAA6800A010F6 /* water_trackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = water_trackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EF364A112B7E4A0400A010F6 /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				EF3649B22B7BAA6300A010F6 /* water_trackerApp.swift */,
 				EF3649B42B7BAA6300A010F6 /* ContentView.swift */,
+				EF364A112B7E4A0400A010F6 /* Progress.swift */,
 				EF3649B62B7BAA6800A010F6 /* Assets.xcassets */,
 				EF3649B82B7BAA6800A010F6 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF364A122B7E4A0400A010F6 /* Progress.swift in Sources */,
 				EF3649B52B7BAA6300A010F6 /* ContentView.swift in Sources */,
 				EF3649B32B7BAA6300A010F6 /* water_trackerApp.swift in Sources */,
 			);
@@ -422,6 +426,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"water_tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 34VADMZBK6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +455,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"water_tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 34VADMZBK6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
