@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B6A6BDD2B7E83280098C9D1 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6A6BDC2B7E83280098C9D1 /* ProgressView.swift */; };
 		EF3649B32B7BAA6300A010F6 /* water_trackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3649B22B7BAA6300A010F6 /* water_trackerApp.swift */; };
 		EF3649B52B7BAA6300A010F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3649B42B7BAA6300A010F6 /* ContentView.swift */; };
 		EF3649B72B7BAA6800A010F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3649B62B7BAA6800A010F6 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B6A6BDC2B7E83280098C9D1 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		EF3649AF2B7BAA6300A010F6 /* water_tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = water_tracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF3649B22B7BAA6300A010F6 /* water_trackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = water_trackerApp.swift; sourceTree = "<group>"; };
 		EF3649B42B7BAA6300A010F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				EF3649B22B7BAA6300A010F6 /* water_trackerApp.swift */,
 				EF3649B42B7BAA6300A010F6 /* ContentView.swift */,
 				EF364A112B7E4A0400A010F6 /* Progress.swift */,
+				0B6A6BDC2B7E83280098C9D1 /* ProgressView.swift */,
 				EF3649B62B7BAA6800A010F6 /* Assets.xcassets */,
 				EF3649B82B7BAA6800A010F6 /* Preview Content */,
 			);
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF364A122B7E4A0400A010F6 /* Progress.swift in Sources */,
+				0B6A6BDD2B7E83280098C9D1 /* ProgressView.swift in Sources */,
 				EF3649B52B7BAA6300A010F6 /* ContentView.swift in Sources */,
 				EF3649B32B7BAA6300A010F6 /* water_trackerApp.swift in Sources */,
 			);
